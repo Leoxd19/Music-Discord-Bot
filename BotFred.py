@@ -71,4 +71,4 @@ async def skip_song(ctx):
     """Skip the current song and play the next song in the queue."""
     await skip_song()
 
-client.run('MTA1MzAxMTk5MjA5NDQ0MTQ5Mg.Gg1Ulf._D1T59kVa_S6JJFNtW8sA04Ivu5Lf8yFjAvBkA')
+client.run('BOT TOKEN HERE')
