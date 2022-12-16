@@ -71,4 +71,5 @@ async def skip_song(ctx):
     """Skip the current song and play the next song in the queue."""
     await skip_song()
 
+# Replace 'BOT TOKEN' with your unique token from the Discord developer portal
 client.run('BOT TOKEN HERE')
