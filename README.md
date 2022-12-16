@@ -8,6 +8,7 @@ Version 01; BookerDeWittBOT
 
 Version 02; BookerDeWittBOT2.0
 
+Version 03; BookerDeWittBOT3.0
 more to come
 
 
