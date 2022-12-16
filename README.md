@@ -1,2 +1,11 @@
 # DiscordBOT
-BOT Booker Dewitt
+BOT for DISCORD
+MUSIC COMMANDS;
+play_song/stop_song...
+
+
+
+
+
+
+
