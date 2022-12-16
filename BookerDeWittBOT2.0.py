@@ -101,4 +101,4 @@ async def skip_song(ctx):
 
 # This code runs the Discord bot client with the specified token. The token is used to authenticate the bot with the Discord API
 
-client.run('MTA1MzAxMTk5MjA5NDQ0MTQ5Mg.GQ3j8k.7g9gboOumOOj4pnt74Gcy41lGdwWIbPgVQa4nU')
+client.run('BOT TOKEN HERE')
