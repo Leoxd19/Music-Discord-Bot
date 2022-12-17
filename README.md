@@ -4,10 +4,9 @@ This is a Discord bot that provides various features and functions for a Discord
 
 ## Getting Started
 
-To use the bot, add it to your Discord server and use the following commands:
+To use the bot, add it to your Discord server.
 
-- !command1: Description of command 1.
-- !command2: Description of command 2.
+To use the help command, you can simply type !help in a Discord server where your bot is present. The bot will then send a message listing all of the available commands and their descriptions.
 
 ## Prerequisites
 
