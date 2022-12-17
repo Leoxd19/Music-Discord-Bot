@@ -26,9 +26,12 @@ To use the bot, add it to your Discord server and use the following commands:
 **!stop_song**: Stop the current song and clear the queue. If the bot is not currently playing any music, this command does nothing.
  
 **!skip_song**: Skip the current song and play the next song in the queue. If the queue is empty, this command does nothing.
+ 
 **!queue**: Display the current queue of songs.
  
 **!tts <message>**: Send a message as text-to-speech.
+ 
+**!commands (command_name)**: Show a list of all available commands or detailed help for a specific command.
  
 
 ## Built With
