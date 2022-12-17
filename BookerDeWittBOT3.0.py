@@ -23,8 +23,32 @@ async def add_song(song_url):
         return await ctx.send(f'An error occurred while trying to play the song: {e}')
     await song_queue.put(song)
 
+
+@client.command()
+async def skip_song(ctx):
+    """
+    Skip the current song and play the next song in the queue.
+
+    If the bot is not currently playing any music, or if there are no more songs in the queue, this command does nothing.
+    """
+    voice_client = ctx.voice_client
+    # Check if the bot is currently playing music
+    if not voice_client.is_playing():
+        return await ctx.send('The bot is not currently playing any music.')
+    # Skip to the next song
+    await skip_song(voice_client)
+
 # Define a function for skipping to the next song
 async def skip_song(voice_client):
+    
+    # Stop the current song
+    voice_client.stop()
+    # If there are more songs in the queue, play the next one
+    if not song_queue.empty():
+        song = song_queue.get()
+        voice_client.play(song)
+
+    
     # Stop the current song
     voice_client.stop()
     # If there are more songs in the queue, play the next one
@@ -60,7 +84,7 @@ async def play_song(ctx, *, query: str):
             'preferredcodec': 'mp3',
             'preferredquality': '192',
         }],
-    }
+    }                   
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
         try:
             info = ydl.extract_info(query, download=False)
@@ -96,20 +120,6 @@ async def stop_song(ctx):
     # Clear the queue
     while not song_queue.empty():
         song_queue.get_nowait()
-
-@client.command()
-async def skip_song(ctx):
-    """
-    Skip the current song and play the next song in the queue.
-
-    If the bot is not currently playing any music, or if there are no more songs in the queue, this command does nothing.
-    """
-    voice_client = ctx.voice_client
-    # Check if the bot is currently playing music
-    if not voice_client.is_playing():
-        return await ctx.send('The bot is not currently playing any music.')
-    # Skip to the next song
-    await skip_song(voice_client)
 
 
 @client.command()
@@ -174,7 +184,7 @@ async def commands(ctx, command_name: str = None):
 # This code runs the Discord bot client with the specified token. The token is used to authenticate the bot with the Discord API.
 # To run the bot, replace the token with your own bot token. You can get a bot token by creating a bot account on the Discord Developer Portal.
 
-client.run('YOUR TOKEN HERE')
+client.run('MTA1MzAxMTk5MjA5NDQ0MTQ5Mg.GQ3j8k.7g9gboOumOOj4pnt74Gcy41lGdwWIbPgVQa4nU')
 
 #Thousands of doors... opening all at once. My God! They are beautiful!
 
