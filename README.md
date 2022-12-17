@@ -1,4 +1,4 @@
-# Discord_Bot
+# Discord_Bot (Booker DeWitt)
 
 This is a Discord bot that provides various features and functions for a Discord server.
 
