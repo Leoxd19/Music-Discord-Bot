@@ -1,8 +1,8 @@
-Discord_Bot
+# Discord_Bot
 
 This is a Discord bot that provides various features and functions for a Discord server.
 
-Requirements
+## Requirements
 To use the bot, you will need:
 
 A Discord account
@@ -14,8 +14,11 @@ To add the bot to your Discord server, follow these steps:
 
 Go to the bot's page on Discord's website (link to bot's page).
 Click the "Add to Discord" button.
+
 Select the server where you want to add the bot and click "Authorize".
-Usage
+
+
+## Usage
 To use the bot, add it to your Discord server and use the following commands:
 
 ****!play_song** <query>**: Play a song by search query or URL. The song will be added to the queue, and if the bot is not currently playing music, it will start playing the first song in the queue.
