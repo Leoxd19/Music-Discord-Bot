@@ -187,39 +187,3 @@ async def commands(ctx, command_name: str = None):
 client.run('BOT TOKEN HERE')
 
 #Thousands of doors... opening all at once. My God! They are beautiful!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
