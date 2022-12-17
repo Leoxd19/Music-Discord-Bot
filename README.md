@@ -12,7 +12,7 @@ A Discord account and a Discord server where you can add the bot.
 
 To add the bot to your Discord server, follow these steps:
 
-Go to the bot's page on Discord's website (link to bot's page).
+Go to the bot's page on Discord's website (Booker DeWitt).
 Click the "Add to Discord" button.
 
 Select the server where you want to add the bot and click "Authorize".
