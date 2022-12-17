@@ -37,6 +37,10 @@ To use the bot, add it to your Discord server and use the following commands:
 ## Built With
 
 - [Discord.py](https://github.com/Rapptz/discord.py) - A Python library for interacting with the Discord API
+ 
+## Thanks
+ 
+Developed and maintained by Rapptz and a team of dedicated contributors.
 
 ## Authors
 
