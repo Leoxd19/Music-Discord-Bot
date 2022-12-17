@@ -40,7 +40,7 @@ To use the bot, add it to your Discord server and use the following commands:
  
 ## Thanks
  
-Developed and maintained by Rapptz and a team of dedicated contributors.
+Developed and maintained by [Rapptz](https://github.com/Rapptz) and a team of dedicated contributors.
 
 ## Authors
 
