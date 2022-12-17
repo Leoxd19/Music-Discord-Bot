@@ -29,7 +29,7 @@ To use the bot, add it to your Discord server and use the following commands:
  
 **!queue**: Display the current queue of songs.
  
-**!tts** <message>: Send a message as text-to-speech.
+**!tts (message)**: Send a message as text-to-speech.
  
 **!commands (command_name)**: Show a list of all available commands or detailed help for a specific command.
  
