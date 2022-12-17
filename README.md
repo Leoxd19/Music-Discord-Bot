@@ -5,10 +5,10 @@ This is a Discord bot that provides various features and functions for a Discord
 ## Requirements
 To use the bot, you will need:
 
-A Discord account
+A Discord account and a Discord server where you can add the bot.
 
-A Discord server where you can add the bot
-Installation
+
+## Installation
 
 To add the bot to your Discord server, follow these steps:
 
@@ -21,7 +21,7 @@ Select the server where you want to add the bot and click "Authorize".
 ## Usage
 To use the bot, add it to your Discord server and use the following commands:
 
-****!play_song** <query>**: Play a song by search query or URL. The song will be added to the queue, and if the bot is not currently playing music, it will start playing the first song in the queue.
+**!play_song <query>**: Play a song by search query or URL. The song will be added to the queue, and if the bot is not currently playing music, it will start playing the first song in the queue.
  
 **!stop_song**: Stop the current song and clear the queue. If the bot is not currently playing any music, this command does nothing.
  
