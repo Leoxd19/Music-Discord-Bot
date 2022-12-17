@@ -174,7 +174,7 @@ async def commands(ctx, command_name: str = None):
 # This code runs the Discord bot client with the specified token. The token is used to authenticate the bot with the Discord API.
 # To run the bot, replace the token with your own bot token. You can get a bot token by creating a bot account on the Discord Developer Portal.
 
-client.run('MTA1MzAxMTk5MjA5NDQ0MTQ5Mg.GQ3j8k.7g9gboOumOOj4pnt74Gcy41lGdwWIbPgVQa4nU')
+client.run('YOUR TOKEN HERE')
 
 #Thousands of doors... opening all at once. My God! They are beautiful!
 
