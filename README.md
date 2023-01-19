@@ -38,13 +38,3 @@ To use Booker DeWitt, add it to your Discord server and use the following comman
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-
-
-
-
- 
- 
- 
- # ''Thousands of doors... opening all at once. My God! They are beautiful!''
