@@ -7,7 +7,6 @@ import youtube_dl
 client = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 
 # This is a Discord bot that uses the commands extension from the discord.py library. It also uses asyncio, discord, and youtube_dl libraries.
-# To use the bot, add it to your Discord server and use the following command:
 
 #- !commands: Lists all of the available commands
 
